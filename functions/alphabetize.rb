@@ -5,7 +5,7 @@ while true
   user_input == "exit" ? exit() : ""
 
   input_arr = user_input.split("").to_a
-  puts "\n" = input_arr.sort_by(&:downcase).join().strip
+  puts "\n" + input_arr.sort_by(&:downcase).join().strip
 
-  
+
 end
